@@ -5,7 +5,7 @@ import 'babel-polyfill';
 import Vue from 'vue';
 import fastclick from 'fastclick';
 import App from './App';
-// import router from './router';
+import router from './router';
 
 fastclick.attach(document.body);
 
@@ -15,4 +15,5 @@ fastclick.attach(document.body);
 new Vue({
   el: '#app',
   render: h => h(App),
+  router,
 });
