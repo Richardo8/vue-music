@@ -32,11 +32,11 @@ module.exports = {
         target: 'https://c.y.qq.com',
         changeOrigin: true
       },
-      'v8': {
+      '/v8': {
         target: 'https://c.y.qq.com',
         changeOrigin: true
       },
-      'musichall': {
+      '/musichall': {
         target: 'https://c.y.qq.com',
         changeOrigin: true
       }
